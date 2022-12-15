@@ -16,6 +16,11 @@ and ease the migration to a more fully featured app.
 There is a default `test.yml` file in the `.github/workflows` directory that will enable GitHub's CI
 system, and can easily be altered.
 
+### But Wait, There's More...
+
+Alongside a handy dandy `bin/setup`, there is a `bin/console` that will drop you into a Pry console
+with the project loaded.
+
 ## Reminder
 
 You're new friend will be `require_relative '../booster_pack'`, instead of calling a litany of
