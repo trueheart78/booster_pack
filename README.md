@@ -13,3 +13,8 @@ and ease the migration to a more fully featured app.
 
 You're new friend will be `require_relative '../booster_pack', instead of calling a litany of
 requires.
+
+## Starting Fresh
+
+This repo is laid how so that, if you want to start a new project from it, everything should
+work after you run `bundle install`.
