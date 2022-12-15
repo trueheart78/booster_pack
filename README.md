@@ -3,7 +3,7 @@
 This is the default layout for the Booster Pack setup to enable autoloading
 and environment support for ruby apps.
 
-![Taylor Swift - Fierce](https://www.trueheart78.com/assets/images/resume/taylor-what-i-want.gif)
+![Taylor Swift - Strong](https://www.trueheart78.com/assets/images/resume/taylor-strong.gif)
 
 ## Goal
 
