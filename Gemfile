@@ -9,7 +9,6 @@ gem 'rake'
 gem 'rubocop', require: false
 gem 'rubocop-rspec', require: false
 gem 'zeitwerk'
-# gem "nokogiri" # used for HLTB script
 
 group :test do
   gem 'rspec'
