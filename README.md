@@ -11,7 +11,7 @@ When moving from _"Hey, I have a couple cool scripts"_ and expanding them into a
 library, a majority of what's provided should be able to dropped into said project's structure,
 and ease the migration to a more fully featured app.
 
-## Bonus 🧪
+## Bonus 🎁
 
 There is a default `test.yml` file in the `.github/workflows` directory that will enable GitHub's CI
 system, and can easily be altered.
