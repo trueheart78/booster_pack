@@ -11,7 +11,7 @@ and ease the migration to a more fully featured app.
 
 ## Reminder
 
-You're new friend will be `require_relative '../booster_pack', instead of calling a litany of
+You're new friend will be `require_relative '../booster_pack'`, instead of calling a litany of
 requires.
 
 ## Starting Fresh
