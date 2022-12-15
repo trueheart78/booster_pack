@@ -26,6 +26,12 @@ with the project loaded.
 You're new friend will be `require_relative '../booster_pack'`, instead of calling a litany of
 requires.
 
+### What About Libraries Like JSON? 📚
+
+If you need part of the Ruby standard library loaded, you will still need to `require` it. If you
+want it project-wide, you can add it to the bottom of the `booster_pack.rb` file and you'll have it
+wherever you need it.
+
 ## Starting Fresh 🌱
 
 This repo is laid how so that, if you want to start a new project from it, everything should
