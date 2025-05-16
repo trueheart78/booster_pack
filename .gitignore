@@ -10,7 +10,3 @@
 # rspec failure tracking
 .rspec_status
 
-# sym-linked files
-games.json
-purchases.json
-lessons.json
