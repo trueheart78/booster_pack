@@ -1,8 +1,9 @@
-require: rubocop-rspec
+plugins:
+  rubocop-rspec
 
 AllCops:
   NewCops: enable
-  TargetRubyVersion: 3.1
+  TargetRubyVersion: 3.4
   SuggestExtensions: false
   Exclude:
     - 'vendor/**/*'
@@ -34,8 +35,6 @@ Style/StringLiteralsInInterpolation:
   Enabled: true
   EnforcedStyle: double_quotes
 RSpec/DescribeClass:
-  Enabled: false
-RSpec/FilePath:
   Enabled: false
 RSpec/MessageSpies:
   EnforcedStyle: receive
