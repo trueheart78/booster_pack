@@ -34,5 +34,5 @@ wherever you need it.
 
 ## Starting Fresh 🌱
 
-This repo is laid how so that, if you want to start a new project from it, everything should
+This repo is laid out so that, if you want to start a new project from it, everything should
 work after you run `bundle install`.
