@@ -36,3 +36,12 @@ wherever you need it.
 
 This repo is laid out so that, if you want to start a new project from it, everything should
 work after you run `bundle install`.
+
+## Creating A Release
+
+Creating a new release is straightforward. The biggest concern is making sure to exclude
+unnecessary directories.
+
+```sh
+zip -r releases/RELEASE_NAME.zip . -x ".git/*" -x "coverage/*" -x "releases/*"
+```
