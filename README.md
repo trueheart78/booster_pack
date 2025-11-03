@@ -37,6 +37,16 @@ wherever you need it.
 This repo is laid out so that, if you want to start a new project from it, everything should
 work after you run `bundle install`.
 
+## Copying Into A Repo
+
+Did you break ground on a project and realized, after-the-fact, that it makes sense to kickstat it with the booster pack?
+
+No worries!
+
+```sh
+rsync -av --exclude '.git/' --exclude 'coverage/' --exclude 'releases/' /path/to/booster_pack /path/dot/destination
+```
+
 ## Creating A Release
 
 Creating a new release is straightforward. The biggest concern is making sure to exclude
