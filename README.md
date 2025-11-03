@@ -44,8 +44,10 @@ Did you break ground on a project and realized, after-the-fact, that it makes se
 No worries!
 
 ```sh
-rsync -av --exclude '.git/' --exclude 'coverage/' --exclude 'releases/' /path/to/booster_pack /path/dot/destination
+rsync -av --exclude 'README.md' --exclude '.git/' --exclude 'coverage/' --exclude 'releases/' /path/to/booster_pack/ ~/destination/path
 ```
+
+Note: Make sure to keep a trailing slash on the `/path/to/booster_pack/` to copy the _contents_ of the booster pack.
 
 ## Creating A Release
 
